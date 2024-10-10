@@ -72,9 +72,9 @@ body
     right: 1px;
     top: -8px;
 }
-.caption > h4
+.caption > h2
 {
-    color: #2980b9; /* Bleu vif */
+    color: #104568; /* Bleu vif */
     font-size: 18px;
 }
 .btn-order
@@ -83,14 +83,14 @@ body
     padding: 10px;
     font-size: 16px;
     color: #fff;
-    background-color: #2980b9; /* Bleu vif */
+    background-color: #1d5e89; /* Bleu vif */
     text-decoration: none;
     text-shadow: 2px 2px #333;
 }
 .btn-order:hover, .btn-order:focus
 {
     color: #fff;
-    background-color: #3498db; /* Bleu plus clair */
+    background-color: #1d4e6e; /* Bleu plus clair */
 }
 
 /* Admin Panel */
@@ -99,4 +99,14 @@ body
     background-color: #ecf0f1; /* Gris très clair */
     padding: 50px;
     border-radius: 10px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.logo {
+    height: 60px; /* Ajuste la taille du logo */
+    width: auto;
 }
