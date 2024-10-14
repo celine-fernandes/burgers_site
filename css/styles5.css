@@ -1,11 +1,11 @@
 body 
 {
     background-color: hsl(0, 0%, 96%);
-    background-image: url('../images/background1.jpg'); /* Chemin vers l'image */
-    background-size: cover; /* Ajuste l'image pour couvrir tout l'écran */
-    background-position: center; /* Centre l'image */
-    background-repeat: no-repeat; /* Évite la répétition de l'image */
-    background-attachment: fixed; /* L'image reste fixe lorsqu'on scrolle */
+    background-image: url('../images/background1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
 .site
 {
@@ -14,20 +14,20 @@ body
 .text-logo
 {
     font-family: 'Holtwood One SC', sans-serif;
-    color: #f9951b; /* Nouveau bleu */
-    text-shadow: 6px 6px #543202; /* Vert clair */
+    color: #f9951b; 
+    text-shadow: 6px 6px #543202; 
     font-size: 50px;
     margin-bottom: 40px;
     text-align: center;
 }
 .text-logo .glyphicon 
 {
-    color: #27ae60; /* Vert clair */
+    color: #27ae60; 
     text-shadow: 0px 0px #27ae60;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
 {
-    background-color: #2980b9; /* Bleu vif */
+    background-color: #2980b9; 
 }
 .nav>li>a:focus, .nav>li>a:hover 
 {
@@ -37,14 +37,14 @@ body
 }
 .nav>li>a
 {
-    color: #f39c12; /* Jaune vif */
+    color: #f39c12; 
     font-size: 18px;
     text-shadow: 4px 4px #543202;
 }
 .btn-login
 {
     color: #fff;
-    background-color: #b40000; /* Violet */
+    background-color: #b40000; 
     text-decoration: none;
 }
 .btn-login:hover, .btn-login:focus 
@@ -58,7 +58,7 @@ body
 }
 .price
 {
-    background: #c0392b; /* Rouge foncé */
+    background: #c0392b; 
     box-shadow: 0 1px rgba(0,0,0,0.2);
     color: #fff;
     text-shadow: 2px 2px #333;
@@ -72,7 +72,7 @@ body
 .price:before 
 {
     border: 4px solid transparent;
-    border-bottom: 4px solid #e74c3c; /* Rouge vif */
+    border-bottom: 4px solid #e74c3c; 
     border-left: 4px solid #e74c3c;
     content: "";
     position: absolute;
@@ -81,7 +81,7 @@ body
 }
 .caption > h2
 {
-    color: #104568; /* Bleu vif */
+    color: #104568; 
     font-size: 18px;
 }
 .btn-order
@@ -90,38 +90,38 @@ body
     padding: 10px;
     font-size: 16px;
     color: #fff;
-    background-color: #1d5e89; /* Bleu vif */
+    background-color: #1d5e89; 
     text-decoration: none;
     text-shadow: 2px 2px #333;
 }
 .btn-order:hover, .btn-order:focus
 {
     color: #fff;
-    background-color: #1d4e6e; /* Bleu plus clair */
+    background-color: #1d4e6e;
 }
 
-/* Admin Panel */
+
 .admin
 {
-    background-color: #ecf0f1; /* Gris très clair */
+    background-color: #ecf0f1; 
     padding: 50px;
     border-radius: 10px;
 }
 
 .logo-container {
     position: absolute;
-    top: 10px; /* Ajuste la hauteur pour être près du titre */
-    left: 20px; /* Ajuste pour la distance à gauche */
+    top: 10px; 
+    left: 20px; 
 }
 .logo {
-    height: 150px; /* Agrandit le logo */
-    width: 150px; /* S'assure qu'il reste un cercle parfait */
-    border-radius: 50%; /* Rend le logo complètement rond */
-    object-fit: cover; /* Ajuste l'image à l'intérieur du cercle */
-    border: 2px solid #f9951b; /* Ajoute un léger contour blanc */
+    height: 150px; 
+    width: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #f9951b; 
 }
 .text-logo {
-    margin-left: 0px; /* Décale légèrement le titre pour être centré par rapport au logo */
+    margin-left: 0px; 
 }
 
 @media (max-width: 700px) {
