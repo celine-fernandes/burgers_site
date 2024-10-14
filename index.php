@@ -21,10 +21,6 @@
                 <img src="images/logo.webp" alt="Logo Burger Town" class="logo">
             </a>
         </div>
- 
-            <div class="text-right">
-                <a href="admin/login.php" class="btn btn-default btn-login"><span class="glyphicon glyphicon-log-in"></span> Login</a>
-            </div>
             
             <h1 class="text-logo"> <i class="fas fa-city"></i> Snack Town </h1>
             <?php
